@@ -19,7 +19,7 @@
 <br>    
 * In the "logic tab", fill parameters according to your needs.  Nontheless, you must remember the following:  
 
-    1. *The "logic tab" MUST have NO data gaps.  This means that each schema name MUST have a human friendly name, mgr_name, a GIS_name and a description.  If you have no definition at hand, you should type down "No Definition".  This script uses this information not only to pull the data from the census bureau, but also to document the data search.  This script will delete ALL lines that are NOT complete.*
+1. *The "logic tab" MUST have NO data gaps.  This means that each schema name MUST have a human friendly name, mgr_name, a GIS_name and a description.  If you have no definition at hand, you should type down "No Definition".  This script uses this information not only to pull the data from the census bureau, but also to document the data search.  This script will delete ALL lines that are NOT complete.*
 <br>
 <br>
 * You can pull data until 2011. However, you should be aware that the census bureau work is dynamic, which means that attributes that are tracked in 2019 are NOT necessarily available in previous year.  The script will throw an error message when the attribute does NOT exist.  
