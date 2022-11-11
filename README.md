@@ -8,13 +8,13 @@
 <br>
 * In the "parameters tab", fill parameters according to your needs.  Nontheless, you must remember the following:  
     
-    1. *If you are using "acs1" the summary level CANNOT be 140. "acs1" type is less granular, so 050 and 040 are the only levels available.*  
+1. *If you are using "acs1" the summary level CANNOT be 140. "acs1" type is less granular, so 050 and 040 are the only levels available.*  
     <br>
-    2. *You CANNOT mix certain table types, so you should download every type separately. For example, your "logic tab" CANNOT have at the same time the following attributes B25002_001E (a detail attribute from a detail table) and DP03_0001E (a detail attribute from a profile table) because the script will fail.*  
+2. *You CANNOT mix certain table types, so you should download every type separately. For example, your "logic tab" CANNOT have at the same time the following attributes B25002_001E (a detail attribute from a detail table) and DP03_0001E (a detail attribute from a profile table) because the script will fail.*  
     <br>
-    3. *Adjust parameter table according to the data type you are using. Options are ‘detail’ (detail tables), ‘subject’ (subject tables), ‘profile’ (data profile tables), ‘cprofile’ (comparison profile tables).*  
+3. *Adjust parameter table according to the data type you are using. Options are ‘detail’ (detail tables), ‘subject’ (subject tables), ‘profile’ (data profile tables), ‘cprofile’ (comparison profile tables).*  
     <br>
-    4. *Adjust your the "Naming Friendliness" parameter by using the most appropiate logic column name for your work.  For instance, a GIS analyst would be more interested in pulling data with "GIS Name" column names.  Options are ‘Schema Name’ (the census coded names), ‘Human Friendly Name’ (the human names assigned by the census bureau), ‘Mgr_Name’ (names assigned by the team of researchers), and ‘GIS_Name’ (names created by the GIS analyst to create a visualizations).*  
+4. *Adjust your the "Naming Friendliness" parameter by using the most appropiate logic column name for your work.  For instance, a GIS analyst would be more interested in pulling data with "GIS Name" column names.  Options are ‘Schema Name’ (the census coded names), ‘Human Friendly Name’ (the human names assigned by the census bureau), ‘Mgr_Name’ (names assigned by the team of researchers), and ‘GIS_Name’ (names created by the GIS analyst to create a visualizations).*  
     <br>
 <br>    
 * In the "logic tab", fill parameters according to your needs.  Nontheless, you must remember the following:  
